@@ -45,7 +45,20 @@ const INITIAL_EMPLOYEES: Employee[] = [
   { id: 9, firstName: 'James', lastName: 'Taylor', email: 'james.taylor@company.com', department: 'Finance', role: 'Accountant' },
   { id: 10, firstName: 'Amanda', lastName: 'Thomas', email: 'amanda.thomas@company.com', department: 'Marketing', role: 'Digital Marketing Specialist' },
   { id: 11, firstName: 'Christopher', lastName: 'Jackson', email: 'chris.jackson@company.com', department: 'Sales', role: 'Sales Manager' },
-  { id: 12, firstName: 'Jennifer', lastName: 'White', email: 'jennifer.white@company.com', department: 'Operations', role: 'Supply Chain Coordinator' }
+  { id: 12, firstName: 'Jennifer', lastName: 'White', email: 'jennifer.white@company.com', department: 'Operations', role: 'Supply Chain Coordinator' },
+  { id: 13, firstName: 'Alex', lastName: 'Rodriguez', email: 'alex.rodriguez@company.com', department: 'Information Technology', role: 'Frontend Developer' },
+  { id: 14, firstName: 'Maria', lastName: 'Garcia', email: 'maria.garcia@company.com', department: 'Information Technology', role: 'Backend Developer' },
+  { id: 15, firstName: 'Kevin', lastName: 'Chen', email: 'kevin.chen@company.com', department: 'Information Technology', role: 'Data Scientist' },
+  { id: 16, firstName: 'Rachel', lastName: 'Thompson', email: 'rachel.thompson@company.com', department: 'Information Technology', role: 'UI/UX Designer' },
+  { id: 17, firstName: 'Daniel', lastName: 'Kim', email: 'daniel.kim@company.com', department: 'Information Technology', role: 'System Administrator' },
+  { id: 18, firstName: 'Sophie', lastName: 'Williams', email: 'sophie.williams@company.com', department: 'Information Technology', role: 'QA Engineer' },
+  { id: 19, firstName: 'Marcus', lastName: 'Brown', email: 'marcus.brown@company.com', department: 'Information Technology', role: 'Security Analyst' },
+  { id: 20, firstName: 'Elena', lastName: 'Petrov', email: 'elena.petrov@company.com', department: 'Information Technology', role: 'Database Administrator' },
+  { id: 21, firstName: 'Thomas', lastName: 'Anderson', email: 'thomas.anderson@company.com', department: 'Information Technology', role: 'Cloud Architect' },
+  { id: 22, firstName: 'Priya', lastName: 'Patel', email: 'priya.patel@company.com', department: 'Information Technology', role: 'Mobile Developer' },
+  { id: 23, firstName: 'Carlos', lastName: 'Mendez', email: 'carlos.mendez@company.com', department: 'Information Technology', role: 'Machine Learning Engineer' },
+  { id: 24, firstName: 'Anna', lastName: 'Kowalski', email: 'anna.kowalski@company.com', department: 'Information Technology', role: 'Product Manager' },
+  { id: 25, firstName: 'Ryan', lastName: 'O\'Connor', email: 'ryan.oconnor@company.com', department: 'Information Technology', role: 'Technical Lead' }
 ];
 
 const EmployeeDirectory: React.FC = () => {
